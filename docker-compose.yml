@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8070:8080"
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb+srv://root:Chetan%40090302@javatech.kaxvfcj.mongodb.net/chetan?retryWrites=true&w=majority&appName=javatech
